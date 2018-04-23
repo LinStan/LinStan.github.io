@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>L&X的恋爱计时器</title>
-        
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
         <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
         <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
         <script type="text/javascript" src="./Love_files/jscex.min.js"></script>
@@ -22,13 +22,13 @@
             <div id="wrap">
                <div id="text">
                     <div id="code">                 
-                    <span class="say">2016年4月23日，</span><br>
+                    <span class="say">2016年4月23日</span><br>
                     <span class="say">在九龙湖收获了小仙女的爱情</span><br>
                             <br>
-                                                <span class="say">2017年6月，</span><br>
-                     <span class="say">我们毕业了</span><br>
+                                                <span class="say">2017年6月</span><br>
+                     <span class="say">毕业了</span><br>
                       <span class="say">很幸运</span><br>
-                            <span class="say">毕业不分手~</span><br>
+                            <span class="say">毕业≠分手~</span><br>
                             <br>
                     <span class="say">今天，</span><br>
                      <span class="say">是我们的两周年纪念日~</span><br>
@@ -43,8 +43,9 @@
                     </div>
                 </div>
                 <div id="clock-box">
-                    大傻 与 小傻 在一起的
-                        <div id="clock"></div>
+                    <a href="http://linstan.xyz/album.html" target="_blank">@大傻</a>  与 小傻 在一起的
+                         
+						<div id="clock"></div>
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
@@ -169,7 +170,7 @@
             // 会有闪烁不得意这样做, (＞﹏＜)
             canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
             canvas.css("background", "#ffe");
-            $await(Jscex.Async.sleep(300));
+            $await(Jscex.Async.sleep(200));
             canvas.css("background", "none");
         }));
 
@@ -186,8 +187,8 @@
         var textAnimate = eval(Jscex.compile("async", function () {
             var together = new Date();
             together.setFullYear(2016, 4, 23);
-            together.setHours(20);
-            together.setMinutes(20);
+            together.setHours(0);
+            together.setMinutes(0);
             together.setSeconds(0);
             together.setMilliseconds(0);
 
