@@ -1,16 +1,16 @@
-hanuman:
+LinStan:
   username: LinStan
   name: LinStan
   location: China
   url_full: https://linstan.xyz
   url: linstan.xyz
   bio: Emmmmmm
-  assets: assets/images/hanuman.png
-# krishna:
-  # username: krishna
-  # name: KRISHNA
-  # location: Vrindavan
-  # url_full: https://shriradhakrishna.com
-  # url: shriradhakrishna.com
-  # bio: Radhe! Radhe!
-  # assets: assets/images/favicon.png
+  assets: assets/images/LinStan.png
+krishna:
+  username: krishna
+  name: KRISHNA
+  location: Vrindavan
+  url_full: https://shriradhakrishna.com
+  url: shriradhakrishna.com
+  bio: Radhe! Radhe!
+  assets: assets/images/favicon.png
