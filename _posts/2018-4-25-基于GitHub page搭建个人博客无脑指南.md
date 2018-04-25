@@ -15,8 +15,7 @@ author: LinStan
 右上角 “+” 号，点击后选 New repository。假定你github 昵称为：LSS<br>
 Repository name 填写为 LSS.github.io(将LSS改为你自己的GitHub昵称)，其余不可改动，这是github分配给每个人的唯一个人主页网址。<br>
 下方选项如图<br>
-![](https://i.imgur.com/MBOsbU3.jpg)
-![](assets/images/paopao.jpg)
+![](assets/images/4.25.1.jpg)
 进入创建好的repository，下拉至Github Pages可以看到 <br>
 > Your site is published at http://LSS.github.io/
 
